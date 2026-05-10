@@ -1,0 +1,24 @@
+# Alloy Wheel Defect Detection System Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core Computer Vision and ML Libraries
+opencv-python==4.8.1.78
+ultralytics==8.0.196
+torch==2.0.1
+torchvision==0.15.2
+
+# Image Processing and Numerical Computing
+numpy==1.24.3
+Pillow==10.0.0
+matplotlib==3.7.2
+
+# GUI and Display (optional for advanced features)
+tkinter  # Usually comes with Python
+
+# Development and Testing
+pytest==7.4.0
+tqdm==4.66.1
+
+# System Utilities
+pathlib  # Built-in with Python 3.4+
+argparse  # Built-in with Python
